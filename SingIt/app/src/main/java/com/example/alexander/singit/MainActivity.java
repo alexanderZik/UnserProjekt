@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View v){
         Button btn= findViewById(v.getId());
 
-        btn.setText("urMomGAY");
+        btn.setText("urMomGAY+urDADDY2");
 
     }
 }
