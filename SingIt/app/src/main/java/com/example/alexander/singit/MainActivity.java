@@ -3,6 +3,7 @@ package com.example.alexander.singit;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,7 +17,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View v){
-        TextView txt = (TextView)findViewById(R.id.txtV);
-        txt.append("Hello");
+        Button btn= findViewById(v.getId());
+
+        btn.setText("urMomGAY");
+
     }
 }
